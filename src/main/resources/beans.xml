@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="addr" class="com.yc.spring.test1.Address">
+        <property name="province" value="湖南省"></property>
+        <property name="city" value="衡阳市"></property>
+    </bean>
+    <bean id="s" class="com.yc.spring.test1.Student" >
+        <!-- DI-> 依赖注入 -->
+        <property name="id" value="1"></property>
+        <property name="name" value="张三"></property>
+        <!-- ref 引入的是spring的另一个托管bean -->
+        <property name="address" ref="addr"></property>
+    </bean>
+
+</beans>
