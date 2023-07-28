@@ -26,7 +26,6 @@ public class MyDataSource implements DataSource {
     private ConcurrentLinkedQueue<MyConnection> pool;
 
     //配置后注入  结合属性文件实现注入操作
-
     //从属性文件中取
     @Value("${coreSize}")
     private int coreSize;
