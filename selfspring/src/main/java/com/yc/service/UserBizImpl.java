@@ -1,5 +1,6 @@
-package com.yc;
+package com.yc.service;
 
+import com.yc.dao.UserDao;
 import org.ycframework.annotation.YcResource;
 import org.ycframework.annotation.YcService;
 
@@ -12,6 +13,7 @@ import org.ycframework.annotation.YcService;
  * @Version 1.0
  */
 @YcService
+//@YcLazy
 public class UserBizImpl implements UserBiz{
     @YcResource(name = "userDaoImpl")
     private UserDao userDao;

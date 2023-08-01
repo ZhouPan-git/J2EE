@@ -1,5 +1,6 @@
-package com.yc;
+package com.yc.dao;
 
+import org.ycframework.annotation.YcLazy;
 import org.ycframework.annotation.YcRepository;
 
 /**
@@ -11,6 +12,7 @@ import org.ycframework.annotation.YcRepository;
  * @Version 1.0
  */
 @YcRepository
+@YcLazy
 public class UserDaoImpl implements UserDao{
 
     @Override

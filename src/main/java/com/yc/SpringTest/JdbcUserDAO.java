@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * @Description:
  * @Version 1.0
  */
-@Repository   //这是一个dao层的类 由spring托管
+@Repository("jud")   //这是一个dao层的类 由spring托管
               //Component       由spring托管
 public class JdbcUserDAO implements UserDAO{
     public JdbcUserDAO() {

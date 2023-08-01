@@ -1,4 +1,4 @@
-package com.yc;
+package com.yc.dao;
 
 import org.ycframework.annotation.YcRepository;
 

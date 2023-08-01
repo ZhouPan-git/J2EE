@@ -7,7 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ioc_dynamicProxy" />
         <module name="selfspring" />
+        <module name="DbHelper" />
       </profile>
     </annotationProcessing>
   </component>
