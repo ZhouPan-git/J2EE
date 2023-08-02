@@ -17,7 +17,8 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Aspect
-@Order(2)
+@Order(2
+)
 public class RateAspect {
     //切入点表达式
     @Pointcut("execution(* com.yc.SpringTest.JdbcUserBiz.add*(..))")

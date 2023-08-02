@@ -10,6 +10,7 @@
         <module name="ioc_dynamicProxy" />
         <module name="selfspring" />
         <module name="DbHelper" />
+        <module name="selfproxy" />
       </profile>
     </annotationProcessing>
   </component>

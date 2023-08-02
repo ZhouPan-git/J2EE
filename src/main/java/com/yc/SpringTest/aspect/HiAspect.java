@@ -1,10 +1,8 @@
 package com.yc.SpringTest.aspect;
 
-import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.core.Ordered;
-import org.springframework.stereotype.Component;
 
 /**
  * @Author zp
@@ -14,8 +12,8 @@ import org.springframework.stereotype.Component;
  * @Description:
  * @Version 1.0
  */
-@Component
-@Aspect
+//@Component
+//@Aspect
 public class HiAspect implements Ordered {
     //切入点表达式
     @Pointcut("execution(* com.yc.SpringTest.JdbcUserBiz.add*(..))")

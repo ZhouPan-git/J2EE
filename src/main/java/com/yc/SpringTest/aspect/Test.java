@@ -1,7 +1,7 @@
 package com.yc.SpringTest.aspect;
 
 import com.yc.SpringTest.Config;
-import com.yc.SpringTest.JdbcUserBiz;
+import com.yc.SpringTest.UserBiz;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
@@ -20,12 +20,12 @@ import javax.annotation.Resource;
 @ContextConfiguration(classes = Config.class)
 public class Test {
     @Resource(name = "jub")
-    private JdbcUserBiz biz;
+    private UserBiz biz;
 
 
     @org.junit.jupiter.api.Test
     public void test1(){
-        biz.addUse("zp");
+        biz.addUser("zp");
         //biz.add();
     }
 }

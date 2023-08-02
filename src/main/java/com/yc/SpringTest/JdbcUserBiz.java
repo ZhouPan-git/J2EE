@@ -14,7 +14,7 @@ import java.util.Random;
  * @Version 1.0
  */
 @Service("jub")
-public class JdbcUserBiz {
+public class JdbcUserBiz implements UserBiz{
     public JdbcUserBiz() {
         System.out.println("JdbcUserBiz构造了");
     }
@@ -49,6 +49,11 @@ public class JdbcUserBiz {
 
     public void add(){
         System.out.println("add");
+    }
+
+    @Override
+    public void addUser(String name) {
+        userDAO.add(name);
     }
 
 //    @Override
