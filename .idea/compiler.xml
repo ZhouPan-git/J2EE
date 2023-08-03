@@ -7,12 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ioc_dynamicProxy" />
-        <module name="selfspring" />
         <module name="DbHelper" />
-        <module name="bank" />
+        <module name="ioc_dynamic_aop" />
+        <module name="selfspring" />
         <module name="selfproxy" />
+        <module name="bank" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bank" target="1.8" />
+      <module name="DbHelper" target="1.8" />
+      <module name="ioc_dynamic_aop" target="1.8" />
+      <module name="ioc_dynamicProxy" target="1.8" />
+      <module name="J2EE" target="1.8" />
+      <module name="selfproxy" target="1.8" />
+      <module name="selfspring" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
