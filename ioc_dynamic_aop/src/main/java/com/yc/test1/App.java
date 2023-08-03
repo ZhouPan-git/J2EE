@@ -16,7 +16,7 @@ public class App {
     public static void main(String[] args) {
         ApplicationContext ac=new AnnotationConfigApplicationContext(Config.class);
         OrderBiz ob=ac.getBean(OrderBiz.class);
-//        ob.makeOrder(1,3);
+        ob.makeOrder(1,3);
 //        ob.findOrderId("apple");
 //        ob.findOrderId("apple");
 //        ob.findOrderId("apple");
@@ -27,14 +27,14 @@ public class App {
 //        ob.findOrderId("pear");
 
 
-        ob.findPid("apple");
-        ob.findPid("apple");
-        ob.findPid("apple");
-        ob.findPid("apple");
-        ob.findPid("pear");
-        ob.findPid("pear");
-        ob.findPid("pear");
-        ob.findPid("pear");
+//        ob.findPid("apple");
+//        ob.findPid("apple");
+//        ob.findPid("apple");
+//        ob.findPid("apple");
+//        ob.findPid("pear");
+//        ob.findPid("pear");
+//        ob.findPid("pear");
+//        ob.findPid("pear");
 
 //        ob.makeOrder(1,99);
     }

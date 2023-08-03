@@ -1,12 +1,11 @@
-package com.yc.test1;
+package com.yc.configs;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 /**
  * @Author zp
- * @Date 2023/8/1 8:56
+ * @Date 2023/8/2 14:17
  * @PackageName:com.yc.biz
  * @ClassName: Config
  * @Description:
@@ -14,6 +13,6 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  */
 @Configuration
 @ComponentScan(basePackages = {"com.yc"})
-@EnableAspectJAutoProxy  //表示启用Aspectj支持
 public class Config {
+
 }
