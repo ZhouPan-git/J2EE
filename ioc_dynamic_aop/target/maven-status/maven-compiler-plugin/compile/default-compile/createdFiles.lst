@@ -1,0 +1,11 @@
+com\yc\jdkProcy\CustomInvocationHandler.class
+com\yc\jdkProcy\Hello.class
+com\yc\test1\aspects\MyAspects.class
+com\yc\jdkProcy\HelloImpl.class
+com\yc\test1\biz\OrderBiz.class
+com\yc\test1\App.class
+com\yc\test1\biz\OrderBizImpl.class
+com\yc\jdkProcy\Test.class
+com\yc\test1\aspects\ByeAspect.class
+com\yc\test1\aspects\HelloAspect.class
+com\yc\test1\Config.class

@@ -1,0 +1,9 @@
+com\yc\cglibproxy\OrderBizImpl.class
+com\yc\cglibproxy\TestMain.class
+com\yc\staticproxy\OrderBizImpl.class
+com\yc\staticproxy\StaticProxy.class
+com\yc\cglibproxy\CglibProxyTool.class
+com\yc\staticproxy\OrderBiz.class
+com\yc\jdkprocy\Test.class
+com\yc\jdkprocy\JdkProxyTool.class
+com\yc\staticproxy\Test.class
