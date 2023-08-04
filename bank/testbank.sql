@@ -18,4 +18,5 @@ create table oprecord
     optime datetime,
     optype enum('deposite','withdraw','transfer') not null,
     transferid varchar(50)
-)
+);
+ALTER TABLE accounts ADD CONSTRAINT bla CHECK (balance>=0);

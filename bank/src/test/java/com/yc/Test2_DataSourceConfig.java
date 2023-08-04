@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.core.env.Environment;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.TransactionManager;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -48,6 +49,14 @@ public class Test2_DataSourceConfig extends TestCase {
     @Autowired
     @Qualifier("druidDataSource")
     private DataSource ds3;
+
+    @Autowired
+    private TransactionManager tx;
+
+    @Test
+    public void testTransactionManager(){
+        log.info(tx);
+    }
 
     @Test
     public void testPropertySource(){

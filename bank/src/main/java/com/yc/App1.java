@@ -17,6 +17,6 @@ public class App1 {
     public static void main(String[] args) {
         ApplicationContext ac=new AnnotationConfigApplicationContext(Config.class);
         AccountBiz ab=ac.getBean(AccountBiz.class);
-        ab.addAccount(1,99);
+        //ab.addAccount(1,99);
     }
 }

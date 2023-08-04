@@ -1,4 +1,5 @@
-import com.yc.AccountDaoJdbcImplTest;
+import com.yc.AccountDaoJdbcTemplateImplTest;
+import com.yc.OpRecordDaoJdbcTemplateImplTest;
 import com.yc.Test1;
 import com.yc.Test2_DataSourceConfig;
 import org.junit.runner.RunWith;
@@ -13,6 +14,6 @@ import org.junit.runners.Suite;
  * @Version 1.0
  */
 @RunWith(Suite.class)
-@ Suite.SuiteClasses({Test1.class, Test2_DataSourceConfig.class, AccountDaoJdbcImplTest.class})
+@ Suite.SuiteClasses({Test1.class, Test2_DataSourceConfig.class, AccountDaoJdbcTemplateImplTest.class,AccountDaoJdbcTemplateImplTest.class, OpRecordDaoJdbcTemplateImplTest.class})
 public class TestSuit {
 }
